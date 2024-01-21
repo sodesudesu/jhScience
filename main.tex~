@@ -1,0 +1,66 @@
+\RequirePackage{plautopatch}
+\documentclass[luatex,11pt]{ltjsbook}\usepackage{ifthen}\newcounter{select}\setcounter{select}{1} % 通常版S
+%\documentclass[book,luatex,fontsize=22pt]{jlreq}\usepackage{ifthen}\newcounter{select}\setcounter{select}{2} % 拡大版22pt
+%\documentclass[book,luatex,fontsize=22pt]{jlreq}\usepackage{ifthen}\newcounter{select}\setcounter{select}{3} % 拡大版26pt
+
+\usepackage{bxpapersize} % jlreqでpaper=b5を使うのに必要らしい。
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{url}
+\hypersetup{%
+colorlinks=false,
+citebordercolor=green,
+linkbordercolor=red,
+urlbordercolor=cyan,
+}
+\usepackage{booktabs} 
+\usepackage[font=small]{caption}
+\usepackage{float}
+\usepackage{subcaption} % 図を左右にならべる
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{bm}
+\usepackage{makeidx}
+\makeindex
+\usepackage{ascmac} % 複数行の□で囲い
+\usepackage{multicol} % 2段組みにするため
+\usepackage{amsmath}
+
+%% 拡大版のための設定
+\newcommand{\SLQ}[3]{\ifthenelse{\value{select}=1}{#1}{\ifthenelse{\value{select}=2}{#2}{#3}}}
+\newcommand{\LO}[1]{\SLQ{\relax}{#1}{\relax}}
+\newcommand{\SO}[1]{\SLQ{#1}{\relax}{\relax}}
+\newcommand{\LNL}{\LO{\notag\\&}}
+
+%% 索引に含める用語
+\newcommand*{\term}[2][]{%
+  {\sffamily\bfseries #2}%
+  \ifx\relax#1\relax\index{#2}\else\index{#1@#2}\fi}
+
+%% 定理
+\newtheorem{eg}{例}[chapter]
+
+\title{中学理科の復習\SLQ{}{〈拡大版〉}} 
+\author{TAIYO}
+\date{最終更新日：\today}
+
+\begin{document}
+
+\maketitle
+
+\frontmatter
+
+\include{prologue.tex}
+\tableofcontents
+
+\mainmatter
+
+\include{phys3.tex}
+
+\appendix
+
+\backmatter
+
+\printindex
+
+\end{document}
