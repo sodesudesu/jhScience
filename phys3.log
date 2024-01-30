@@ -1,0 +1,600 @@
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.26)  29 JAN 2024 16:19
+ restricted system commands enabled.
+ file:line:error style messages enabled.
+**phys3.tex
+(./phys3.tex
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-12-11>
+Lua module: luaotfload 2023-08-31 3.26 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/Users/taiyo/Library/texlive/2023/t
+exmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-08-19.lua" from kpse-res
+olved path "/usr/local/texlive/2023/texmf-dist/tex/luatex/luaotfload/fontloader-
+2023-08-19.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.133
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/Users/taiyo/Library/texlive/2023/t
+exmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'.
+./phys3.tex:1: Undefined control sequence.
+l.1 \chapter
+          {力と運動}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./phys3.tex:1: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \chapter{力
+              と運動}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
+[]力と運動 
+ []
+
+./phys3.tex:3: Undefined control sequence.
+l.3 \section
+          {力のこと}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./phys3.tex:3: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \section{力
+              のこと}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 3--4
+[]力のこと 
+ []
+
+
+./phys3.tex:5: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 物
+     体の運動を変化させたり、物体の形を変えたりするも...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./phys3.tex:5: Undefined control sequence.
+l.5 ...体の形を変えたりするものを\term
+                                                  [ちから]{力}という。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./phys3.tex:6: Undefined control sequence.
+l.6 力の大きさは\term
+                         [にゅうとん]{ニュートン}（記号：$\mat...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 6.
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 5--8
+[]物体の運動を変化させたり、物体の形を変えたりするも
+のを[ちから]力という。
+ []
+
+
+Overfull \hbox (7.50002pt too wide) in paragraph at lines 5--8
+力の大きさは[にゅうとん]ニュートン（記号：$\OT1/cmr/m/n/10 
+N$\nullfont ）という単位で表される。
+ []
+
+./phys3.tex:9: Undefined control sequence.
+l.9 \subsection
+             {身近な力の例}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./phys3.tex:9: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \subsection{身
+                 近な力の例}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 9--10
+[]身近な力の例 
+ []
+
+./phys3.tex:11: Undefined control sequence.
+l.11 \paragraph
+             {重力}\mbox{}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./phys3.tex:11: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \paragraph{重
+                 力}\mbox{}\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 11--12
+[]重力[] 
+ []
+
+
+./phys3.tex:13: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 手
+      に持っていたものが地面に落ちることから分かるよう..
+.
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./phys3.tex:14: Undefined control sequence.
+l.14 地球が物体を引っ張る力を\term
+                                            [じゅうりょく]{重力}とい..
+.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./phys3.tex:15: Undefined control sequence.
+l.15 物体がもつ\term
+                       [しつりょう]{質量}という量が大きいほど..
+.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./phys3.tex:16: Undefined control sequence.
+l.16 質量の大きさは\term
+                             [きろぐらむ]{キログラム}（記号：k...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 13--17
+[]手に持っていたものが地面に落ちることから分かるよう
+に、物体は地球に引っ張られている。
+ []
+
+
+./phys3.tex:18: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 $
+    0.1\,\mathrm{kg} (= 100\,\mathrm{g})$ の物体に加わる重力はおよ..
+.
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (56.52783pt too wide) in paragraph at lines 18--20
+[]$\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1 [](=
+ []
+
+
+Overfull \hbox (25.55559pt too wide) in paragraph at lines 18--20
+\OT1/cmr/m/n/10 100 g)$
+ []
+
+
+Overfull \hbox (21.94446pt too wide) in paragraph at lines 18--20
+\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 8 N$
+ []
+
+
+Overfull \hbox (33.33339pt too wide) in paragraph at lines 18--20
+大雑把に「$\OT1/cmr/m/n/10 100 g(=
+ []
+
+
+Overfull \hbox (24.86113pt too wide) in paragraph at lines 18--20
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1 []$\nullfont の物体に
+は
+ []
+
+
+Overfull \hbox (14.16666pt too wide) in paragraph at lines 18--20
+\OT1/cmr/m/n/10 1 N$\nullfont の重力が働く」という感覚を持って
+ほしい。 
+ []
+
+./phys3.tex:21: Undefined control sequence.
+l.21 \section
+           {「速さ」について改めて}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./phys3.tex:21: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \section{「
+               速さ」について改めて}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 21--23
+[]「速さ」について改めて
+ []
+
+
+./phys3.tex:24: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 例
+      えば次の問題：
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./phys3.tex:25: LaTeX Error: Environment screen undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \begin{screen}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./phys3.tex:28: LaTeX Error: \begin{document} ended by \end{screen}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \end{screen}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+luaotfload | db : Font names database loaded from /Users/taiyo/Library/texlive/2
+023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz
+./phys3.tex:36: Undefined control sequence.
+\@footnotetext ...tins {\reset@font \footnotesize 
+                                                  \interlinepenalty \interfo...
+l.36 }
+    。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./phys3.tex:36: Undefined control sequence.
+\@footnotetext ...}\color@begingroup \@makefntext 
+                                                  {\rule \z@ \footnotesep \i...
+l.36 }
+    。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (222.39021pt too wide) in paragraph at lines 36--36
+[][]\TU/lmr/m/n/10 謎󰀀の󰀀語󰀀呂󰀀合󰀀わ󰀀せ󰀀を󰀀唱
+󰀀え󰀀て󰀀速󰀀さ󰀀を󰀀公󰀀式󰀀化󰀀し󰀀た󰀀り
+󰀀、󰀀単󰀀位󰀀だ󰀀け󰀀を󰀀見󰀀て󰀀「󰀀速󰀀さ
+󰀀は󰀀 km/hだ󰀀か󰀀ら󰀀距󰀀離󰀀を󰀀時󰀀間󰀀で
+󰀀割󰀀れ󰀀ば󰀀良󰀀い󰀀ん󰀀だ󰀀な󰀀」󰀀な󰀀ど
+󰀀と󰀀安󰀀易󰀀に󰀀考󰀀え󰀀る󰀀こ󰀀と󰀀を󰀀私
+󰀀は󰀀推󰀀奨󰀀し󰀀な󰀀い󰀀。󰀀
+ []
+
+
+Overfull \hbox (156.80017pt too wide) in paragraph at lines 36--36
+\TU/lmr/m/n/10 （󰀀初󰀀め󰀀て󰀀速󰀀さ󰀀を󰀀学󰀀ぶ󰀀
+小󰀀学󰀀生󰀀は󰀀特󰀀に󰀀）󰀀速󰀀さ󰀀を󰀀割󰀀
+合󰀀の󰀀問󰀀題󰀀（󰀀具󰀀体󰀀的󰀀に󰀀は󰀀単󰀀
+位󰀀量󰀀あ󰀀た󰀀り󰀀の󰀀大󰀀き󰀀さ󰀀の󰀀問󰀀
+題󰀀）󰀀に󰀀帰󰀀着󰀀さ󰀀せ󰀀る󰀀べ󰀀き󰀀で󰀀
+あ󰀀る󰀀。󰀀
+ []
+
+
+Overfull \hbox (300.89024pt too wide) in paragraph at lines 36--36
+\TU/lmr/m/n/10 「󰀀時󰀀速󰀀何󰀀 km」󰀀と󰀀聞󰀀か󰀀れ
+󰀀て󰀀い󰀀る󰀀の󰀀で󰀀あ󰀀れ󰀀ば󰀀、󰀀1時󰀀間
+󰀀に󰀀ど󰀀れ󰀀く󰀀ら󰀀い󰀀進󰀀め󰀀る󰀀か󰀀を
+󰀀計󰀀算󰀀す󰀀る󰀀の󰀀だ󰀀な󰀀！󰀀と󰀀思󰀀え
+󰀀ば󰀀よ󰀀く󰀀、󰀀2時󰀀間󰀀で󰀀20 km進󰀀め󰀀る
+󰀀か󰀀ら󰀀1時󰀀間󰀀で󰀀は󰀀そ󰀀の󰀀半󰀀分󰀀の
+󰀀10 km進󰀀め󰀀る󰀀！󰀀と󰀀頭󰀀を󰀀働󰀀か󰀀せ
+󰀀れ󰀀ば󰀀良󰀀い󰀀。󰀀
+ []
+
+
+Overfull \hbox (351.95024pt too wide) in paragraph at lines 36--36
+\TU/lmr/m/n/10 「󰀀時󰀀速󰀀10 kmの󰀀速󰀀さ󰀀で󰀀2時󰀀
+間󰀀走󰀀る󰀀時󰀀、󰀀何󰀀 km進󰀀め󰀀る󰀀か󰀀」
+󰀀と󰀀い󰀀う󰀀問󰀀題󰀀で󰀀も󰀀、󰀀時󰀀速󰀀10 km
+は󰀀1時󰀀間󰀀に󰀀10 km進󰀀む󰀀こ󰀀と󰀀を󰀀意󰀀
+味󰀀し󰀀て󰀀い󰀀る󰀀か󰀀ら󰀀、󰀀2時󰀀間󰀀走󰀀
+れ󰀀ば󰀀そ󰀀の󰀀2倍󰀀の󰀀距󰀀離󰀀進󰀀め󰀀る󰀀
+か󰀀ら󰀀20 km進󰀀め󰀀る󰀀ぞ󰀀！󰀀と󰀀気󰀀づ󰀀け
+󰀀ば󰀀良󰀀い󰀀。󰀀
+ []
+
+
+Overfull \hbox (268.8003pt too wide) in paragraph at lines 36--36
+\TU/lmr/m/n/10 こ󰀀の󰀀よ󰀀う󰀀な󰀀方󰀀法󰀀は󰀀時󰀀
+間󰀀の󰀀か󰀀か󰀀る󰀀も󰀀の󰀀で󰀀あ󰀀る󰀀が󰀀
+、󰀀下󰀀手󰀀な󰀀公󰀀式󰀀化󰀀に󰀀よ󰀀り󰀀思󰀀
+考󰀀停󰀀止󰀀・󰀀わ󰀀か󰀀っ󰀀た󰀀気󰀀に󰀀な󰀀
+る󰀀と󰀀い󰀀う󰀀病󰀀的󰀀な󰀀状󰀀況󰀀を󰀀回󰀀
+避󰀀す󰀀る󰀀の󰀀に󰀀有󰀀効󰀀で󰀀あ󰀀り󰀀、󰀀
+こ󰀀の󰀀先󰀀の󰀀勉󰀀強󰀀に󰀀お󰀀い󰀀て󰀀も󰀀
+広󰀀が󰀀り󰀀が󰀀あ󰀀り󰀀応󰀀用󰀀の󰀀効󰀀く󰀀
+も󰀀の󰀀だ󰀀と󰀀考󰀀え󰀀て󰀀い󰀀る󰀀。󰀀| 
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 24--38
+[]例えば次の問題：
+ []
+
+
+Overfull \hbox (4.483pt too wide) in paragraph at lines 24--38
+この速さの計算で考えるべきことは、「1時間にどれくら
+いの距離進めるか」という単位量あたりの大きさであった[
+]。
+ []
+
+
+Overfull \hbox (33.05562pt too wide) in paragraph at lines 24--38
+\OT1/cmr/m/n/10 20 [] \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 24--38
+\OT1/cmr/m/n/10 2 =
+ []
+
+
+Overfull \hbox (25.27782pt too wide) in paragraph at lines 24--38
+\OT1/cmr/m/n/10 10 []$\nullfont 進めるから、小林君の速さは時速
+ []
+
+
+Overfull \hbox (25.27782pt too wide) in paragraph at lines 24--38
+\OT1/cmr/m/n/10 10 []$
+ []
+
+
+./phys3.tex:39: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 当
+      然だが、この間小林君は信号で止まったりスパートを..
+.
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./phys3.tex:40: Undefined control sequence.
+<recently read> \dfrac 
+       
+l.40 ...た距離とかかった時間から $\dfrac
+                                                  {\text{距離}}{\text{時間..
+.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./phys3.tex:40: Undefined control sequence.
+l.40 ...離とかかった時間から $\dfrac{\text
+                                                  {距離}}{\text{時間}}$の..
+.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./phys3.tex:40: Undefined control sequence.
+l.40 ...た時間から $\dfrac{\text{距離}}{\text
+                                                  {時間}}$のように計算..
+.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 距 (U+8DDD) in font cmr10!
+Missing character: There is no 距 (U+8DDD) in font cmr10!
+Missing character: There is no 離 (U+96E2) in font cmr10!
+Missing character: There is no 時 (U+6642) in font cmr10!
+Missing character: There is no 時 (U+6642) in font cmr10!
+Missing character: There is no 間 (U+9593) in font cmr10!
+./phys3.tex:41: Undefined control sequence.
+l.41 この速さを\term
+                       [へいきんのはやさ]{平均の速さ}という。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./phys3.tex:42: Undefined control sequence.
+l.42 一方、刻一刻と変わる速さは\term
+                                               [しゅんかんのはやさ]...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 39--44
+[]当然だが、この間小林君は信号で止まったりスパートを
+かけて加速したりと、一瞬一瞬で速さを変えながら走って
+いる。
+ []
+
+
+./phys3.tex:45: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 次
+      節以降で「速さ」という時、それは「瞬間の速さ」を..
+.
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 45--46
+[]次節以降で「速さ」という時、それは「瞬間の速さ」を
+意味するので注意してほしい。 
+ []
+
+./phys3.tex:47: Undefined control sequence.
+l.47 {\small
+          %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./phys3.tex:48: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48   \noindent
+              
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+! Emergency stop.
+<*> phys3.tex
+          
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 29 strings out of 476506
+ 100000,1977958 words of node,token memory allocated 14998 words of node memory still in use:
+   62 hlist, 2 rule, 1 ins, 13 local_par, 1 dir, 14 math, 158 glue, 5 kern, 45 p
+enalty, 1771 glyph, 1 page_insert, 76 attribute, 39 glue_spec, 76 attribute_list
+, 1 temp nodes
+   avail lists: 3:2,4:8,5:10,8:13,10:7
+ 22183 multiletter control sequences out of 65536+600000
+ 26 fonts using 1476743 bytes
+ 23i,5n,22p,301b,104s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
